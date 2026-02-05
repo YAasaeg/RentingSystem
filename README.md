@@ -1,4 +1,4 @@
-# 
+<img width="265" height="293" alt="image" src="https://github.com/user-attachments/assets/f7f2861c-4a83-4d54-a7f8-6dc9b2263f40" /># 
 
 这是一个面向租客和房东的租房管理系统
 
@@ -6,7 +6,7 @@
 
 ### 1. 用户体系
 - **角色区分**: 支持 **房东 (Landlord)** 和 **租客 (Tenant)** 两种角色。
-- **功能**: 注册、登录、个人信息编辑 (`EditProfileActivity`)。
+- **功能**: 注册、登录、个人信息编辑。
 
 ### 2. 房源管理
 - **房东**: 发布房源 、管理房源。
@@ -27,7 +27,12 @@
 ##  部分应用截图
 
 <div align="center">
-  <img src="AppPages/Login.png" width="200" alt="登录页面" />
+  <img src="pages/Login.png" width="200" alt="登录页面" />
+    <img src="pages/House.png" width="200" alt="房源列表" />
+  <img src="pages/HouseDetai.png" width="200" alt="房源详情" />
+  <img src="pages/application.png" width="200" alt="申请页面" />
+  <img src="pages/Contact.png" width="200" alt="聊天页面" />
+  <img src="pages/Contract.png" width="200" alt="合同列表" />
 </div>
 
 ##  技术栈

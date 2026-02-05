@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布新房源"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="房源基本信息"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/secondary"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_title"
+                style="@style/AppEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房源标题 (如：精装两居室)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_address"
+                style="@style/AppEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="详细地址"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/et_rent"
+                    style="@style/AppEditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="月租金 (元)"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/et_area"
+                    style="@style/AppEditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="面积 (㎡)"
+                    android:inputType="numberDecimal"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_house_type"
+                style="@style/AppEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="户型 (如：2室1厅)"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="房源图片"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/secondary"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btn_select_image"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择图片"
+                android:textColor="@color/secondary"
+                app:strokeColor="@color/secondary"
+                android:layout_marginBottom="8dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+            <TextView
+                android:id="@+id/tv_image_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="未选择图片"
+                android:textSize="14sp"
+                android:textColor="@color/text_hint"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/AppButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立即发布"/>
+
+</LinearLayout>

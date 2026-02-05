@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="业务处理"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <!-- 用 LinearLayout 实现单列列表 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Reservation Management -->
+        <Button
+            android:id="@+id/btn_manage_reservation"
+            style="@style/AppButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="12dp"
+            android:text="预约管理"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <!-- Application Management (Placeholder) -->
+        <Button
+            android:id="@+id/btn_manage_application"
+            style="@style/AppButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="12dp"
+            android:text="申请管理"
+            android:enabled="false"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <!-- Contract Management (Placeholder) -->
+        <Button
+            android:id="@+id/btn_manage_contract"
+            style="@style/AppButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="12dp"
+            android:text="合同管理"
+            android:enabled="false"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <!-- Notice Management (Placeholder) -->
+        <Button
+            android:id="@+id/btn_manage_notice"
+            style="@style/AppButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="12dp"
+            android:text="公告管理"
+            android:enabled="false"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <!-- Message Center (Placeholder) -->
+        <Button
+            android:id="@+id/btn_message_center"
+            style="@style/AppButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="信息中心"
+            android:enabled="false"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+    </LinearLayout>
+</LinearLayout>

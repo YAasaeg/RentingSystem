@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentingSystem">
+        <activity
+            android:name=".ui.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.AddHouseActivity" />
+        <activity android:name=".ui.HouseDetailActivity" />
+        <activity android:name=".ui.MyReservationsActivity" />
+        <activity android:name=".ui.ReservationManagementActivity" />
+        <activity android:name=".ui.ApplicationManagementActivity" />
+        <activity android:name=".ui.MyApplicationsActivity" />
+        <activity android:name=".ui.MyContractsActivity" />
+        <activity android:name=".ui.ChatActivity" />
+        <activity android:name=".ui.ContractManagementActivity" />
+        <activity android:name=".ui.MessageCenterActivity" />
+        <activity android:name=".ui.NoticeManagementActivity" />
+    </application>
+
+</manifest>

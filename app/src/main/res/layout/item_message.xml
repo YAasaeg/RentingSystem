@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Time Stamp -->
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"
+        android:textColor="#999999"
+        android:layout_marginBottom="4dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_msg_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Receiver Avatar (Left) -->
+        <ImageView
+            android:id="@+id/iv_avatar_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:background="@drawable/bg_search_bar"
+            android:padding="4dp"/>
+
+        <!-- Message Content -->
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message Content"
+            android:maxWidth="260dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_input_field"
+            android:textColor="@color/text_primary"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Sender Avatar (Right) -->
+        <ImageView
+            android:id="@+id/iv_avatar_right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:background="@drawable/bg_search_bar"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

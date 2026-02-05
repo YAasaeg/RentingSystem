@@ -1,7 +1,3 @@
-<img width="265" height="293" alt="image" src="https://github.com/user-attachments/assets/f7f2861c-4a83-4d54-a7f8-6dc9b2263f40" /># 
-
-这是一个面向租客和房东的租房管理系统
-
 ##  核心功能模块
 
 ### 1. 用户体系

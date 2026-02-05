@@ -24,8 +24,8 @@
 
 <div align="center">
   <img src="pages/Login.png" width="200" alt="登录页面" />
-    <img src="pages/House.png" width="200" alt="房源列表" />
-  <img src="pages/HouseDetai.png" width="200" alt="房源详情" />
+    <img src="pages/HouseList.png" width="200" alt="房源列表" />
+  <img src="pages/HouseDetail.png" width="200" alt="房源详情" />
   <img src="pages/application.png" width="200" alt="申请页面" />
   <img src="pages/Contact.png" width="200" alt="聊天页面" />
   <img src="pages/Contract.png" width="200" alt="合同列表" />

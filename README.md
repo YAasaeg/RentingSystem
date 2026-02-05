@@ -20,7 +20,7 @@
 ### 5. 房屋公告
 - 房东可发布的通知公告。
 
-##  部分应用截图
+##  应用部分截图
 
 <div align="center">
   <img src="pages/Login.png" width="200" alt="登录页面" />
